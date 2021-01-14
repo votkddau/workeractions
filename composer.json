@@ -1,0 +1,19 @@
+{
+    "name": "vic/worker_roles",
+    "description": "Test package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Tkachenko",
+            "email": "votkddau@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Victor\\WorkerRoles\\": "src/"
+        }
+    },
+    "require": {}
+}
