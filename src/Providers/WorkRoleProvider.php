@@ -1,6 +1,6 @@
 <?php
 
-namespace Victor\WorkerRoles;
+namespace Victor\WorkerRoles\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Victor\WorkerRoles\Commands\EmployeeActions;

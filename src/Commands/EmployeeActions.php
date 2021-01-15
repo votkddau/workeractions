@@ -3,8 +3,8 @@
 namespace Victor\WorkerRoles\Commands;
 
 use Illuminate\Console\Command;
-use Victor\WorkerRoles\Common\ActionEnum;
-use Victor\WorkerRoles\Common\RoleEnum;
+use Victor\WorkerRoles\Enums\ActionEnum;
+use Victor\WorkerRoles\Enums\RoleEnum;
 use Victor\WorkerRoles\Services\RoleActionList;
 
 class EmployeeActions extends Command

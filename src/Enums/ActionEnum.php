@@ -1,6 +1,6 @@
 <?php
 
-namespace Victor\WorkerRoles\Common;
+namespace Victor\WorkerRoles\Enums;
 
 class ActionEnum extends BaseEnum
 {

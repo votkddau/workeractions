@@ -1,14 +1,18 @@
 <?php
 
-namespace Victor\WorkerRoles\Roles;
+namespace Victor\WorkerRoles\Models;
 
-use Victor\WorkerRoles\Common\RoleEnum;
+use Victor\WorkerRoles\Enums\RoleEnum;
+use Victor\WorkerRoles\Models\Roles\Designer;
+use Victor\WorkerRoles\Models\Roles\Manager;
+use Victor\WorkerRoles\Models\Roles\Programmer;
+use Victor\WorkerRoles\Models\Roles\Tester;
 
-class RoleFabric
+class RoleFactory
 {
     /**
      * @param RoleEnum $role
-     * @return BaseRole
+     * @return AbstractRole
      */
     public static function getInstance(RoleEnum $role)
     {

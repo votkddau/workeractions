@@ -1,8 +1,8 @@
 <?php
 
-namespace Victor\WorkerRoles\Roles;
+namespace Victor\WorkerRoles\Models;
 
-abstract class BaseRole
+abstract class AbstractRole
 {
     protected $actions = [];
 
